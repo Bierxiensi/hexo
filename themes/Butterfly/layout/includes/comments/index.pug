@@ -1,0 +1,35 @@
+if theme.disqus && theme.disqus.enable
+  hr
+  #post-comment
+    .comment_headling
+      i.fa.fa-comments.fa-fw(aria-hidden="true")
+      span= ' ' + _p('comment')
+    include disqus
+else if theme.laibili && theme.laibili.enable
+  hr
+  #post-comment
+    .comment_headling
+      i.fa.fa-comments.fa-fw(aria-hidden="true")
+      span= ' ' + _p('comment')
+    include laibili
+else if theme.gitment && theme.gitment.enable
+  hr
+  #post-comment
+    .comment_headling
+      i.fa.fa-comments.fa-fw(aria-hidden="true")
+      span= ' ' +  _p('comment')
+    include gitment
+else if theme.gitalk && theme.gitalk.enable
+  hr
+  #post-comment
+    .comment_headling
+      i.fa.fa-comments.fa-fw(aria-hidden="true")
+      span= ' ' +  _p('comment')
+    include gitalk
+else if theme.valine && theme.valine.enable
+  hr
+  #post-comment
+    .comment_headling
+      i.fa.fa-comments.fa-fw(aria-hidden="true")
+      span= ' ' +  _p('comment')
+    include valine
