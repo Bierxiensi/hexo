@@ -2,7 +2,7 @@ search:
   title: Search
   keyword: keyword
   status:
-    success: v 
+    success: v
     error: x
 
 postTotal: "%d posts in total."
@@ -25,6 +25,10 @@ tag:
 category:
   title: Category
   subtitle: Category
+
+events:
+  title: Events
+  subtitle: Events
 
 about:
   title: About

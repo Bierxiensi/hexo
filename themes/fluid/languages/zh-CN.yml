@@ -2,7 +2,7 @@ search:
   title: 搜索
   keyword: 关键词
   status:
-    success: v 
+    success: v
     error: x
 
 postTotal: 共计 %d 篇文章
@@ -25,6 +25,10 @@ tag:
 category:
   title: 分类
   subtitle: 分类
+
+events:
+  title: 大事记
+  subtitle: 大事记
 
 about:
   title: 关于

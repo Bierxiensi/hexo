@@ -1,6 +1,6 @@
 if hexo-config("nightshift") && hexo-config("nightshift.enable")
-  .night-mode 
-    color: #99a9bf 
+  .night-mode
+    color: #99a9bf
     background-color: #2d3032
 
     #sidebar
@@ -9,17 +9,17 @@ if hexo-config("nightshift") && hexo-config("nightshift.enable")
 
       &::-webkit-scrollbar-thumb
         background: lighten(#2d3035,5)
-    
+
     #toggle-sidebar
       color: #99a9bf !important
 
     if hexo-config("local_search") && hexo-config("local_search.enable")
       #local-search
-        background: #2d3035  
-        .local-search-box--input  
+        background: #2d3035
+        .local-search-box--input
           background: #2d3035
           color: #99a9bf
-            
+
         .search-result-title
           color: #99a9bf
     if hexo-config("algolia_search.enable")
@@ -32,49 +32,49 @@ if hexo-config("nightshift") && hexo-config("nightshift.enable")
         #algolia-search-results
           .algolia-hit-item-link
             color: #99a9bf !important
-        
+
     h1, h2, h3, h4, h5, h6
       color: #99a9bf
 
     .article-container code
-      background: #616a6b 
-      color: #99a9bf 
+      background: #616a6b
+      color: #99a9bf
 
     // 評論
     #vcomment
       p,a,textarea,.vemoji-btn,.vpreview-btn,input,path,.vcount,.vnum,.vtime,.vsys,.vsys,.vnick
         color: #99a9bf !important
-      
+
       .vsys
         background: rgb(97, 106, 107) !important
 
       .vbtn
-        background: rgb(45, 48, 53) !important      
+        background: rgb(45, 48, 53) !important
         color: #99a9bf !important
         border: 1px solid #99a9bf
-      
+
       .vwrap
         border: 1px solid #99a9bf
-      
+
       input
         border-bottom: 1px dashed #616a6b
-      
+
       .vh
         border-bottom: 1px dashed  #616a6b
-      
+
       pre
         background-color: #2d3035
         border: 1px solid #99a9bf
-      
+
       .vcontent.expand:before
         background: linear-gradient(180deg,hsla(0, 0%, 0%, 0),hsl(218, 8%, 19%))
 
       .vcontent.expand:after
         background: hsla(204, 5%, 22%, 1)
-          
+
     .recent-post-item
       background: #2d3032 !important
-      
+
       .article-title,
       a
         color: #99a9bf !important
@@ -82,15 +82,15 @@ if hexo-config("nightshift") && hexo-config("nightshift.enable")
     #page-header
         &.fixed
             background: #2d3035
-            box-shadow: 0 5px 6px -5px rgba(133,133,133,0) 
+            box-shadow: 0 5px 6px -5px rgba(133,133,133,0)
 
-            a, 
-            .toggle-menu, 
-            #site-name 
-                color: #99a9bf 
-                
+            a,
+            .toggle-menu,
+            #site-name
+                color: #99a9bf
+
     blockquote
-        border-left: 0.2rem solid #7A5353 
+        border-left: 0.2rem solid #7A5353
         color: #99a9bf
         background-color: #2f3d49
 
@@ -113,33 +113,33 @@ if hexo-config("nightshift") && hexo-config("nightshift.enable")
           color: #99a9bf
 
     .article-container .highlight
-        background-color: #1B2631 
+        background-color: #1B2631
         .code pre
-            background-color: #1B2631 
+            background-color: #1B2631
 
         .gutter pre
-            background: #1C2833 
+            background: #1C2833
 
 
         &:after
-            background: rgb(27, 38, 59) 
-        
+            background: rgb(27, 38, 59)
+
         table
             &:after,.copy-notice
-                background: rgb(27, 38, 59) 
-        
+                background: rgb(27, 38, 59)
+
         &::-webkit-scrollbar-thumb
           background: lighten(#1B2631,10)
-        
+
     .copy-notice
-        background: rgb(27, 38, 59) 
+        background: rgb(27, 38, 59)
 
     .post-cards,.md-links-item
         a
             color: #99a9bf
 
     .aplayer
-        color: #000000 
+        color: #000000
         filter: brightness(0.6)
 
     .article-sort-item__title
@@ -167,7 +167,7 @@ if hexo-config("nightshift") && hexo-config("nightshift.enable")
 
     .layout_post
         background:#2d3035
-    
+
     canvas
       display: none !important
 
@@ -181,10 +181,10 @@ if hexo-config("nightshift") && hexo-config("nightshift.enable")
       .archive-list-link,
       .social-icon
         color: #99a9bf !important
-      
+
       #bookmark-it
         background: #616a6b !important
-    
+
     #archive,
     .tag-cloud,
     #tag,
@@ -213,7 +213,7 @@ if hexo-config("nightshift") && hexo-config("nightshift.enable")
       i
         color: #99a9bf
 
-    #site-info .blogtitle, 
+    #site-info .blogtitle,
     span.subtitle,
     #site-title,
     #post-info .posttitle,
@@ -225,7 +225,7 @@ if hexo-config("nightshift") && hexo-config("nightshift.enable")
     #page-header a,
     #page-header .toggle-menu
       color: rgba(238,238,238,.6)
-    
+
     #footer
       background-color: #2d3032
 
@@ -237,7 +237,7 @@ if hexo-config("nightshift") && hexo-config("nightshift.enable")
         filter: brightness(0.6)
       img
         filter: brightness(1)
-      
+
     &::-webkit-scrollbar-thumb
       background: lighten(#2d3035,5)
 
@@ -257,7 +257,7 @@ if hexo-config("nightshift") && hexo-config("nightshift.enable")
 
         .headline
           color: #99a9bf !important
-        
+
         .length_num
           color: darken(#99a9bf,10) !important
         a
@@ -269,7 +269,7 @@ if hexo-config("nightshift") && hexo-config("nightshift.enable")
           color: #99a9bf !important
 
 
-    #page-header 
+    #page-header
       .menus_item_child
         background-color: #2d3035 !important
 
@@ -283,7 +283,7 @@ if hexo-config("nightshift") && hexo-config("nightshift.enable")
 
 
 
-    
+
 
 
 

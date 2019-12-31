@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="511898e3-7d32-4a5e-b8af-5129cf699058" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/fluid/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/fluid/_config.yml" afterDir="false" />
-    </list>
+    <list default="true" id="511898e3-7d32-4a5e-b8af-5129cf699058" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,25 +181,54 @@
       </favorite_root>
     </favorites_list>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.deploy_git" />
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1SXXRqhtd6u2W9ikjP8aCSbC2V9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../blog-prj" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="EJS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../zxyaily-blog-manager-writing-system" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\yanzi\blog\themes\fluid\source\img" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\yanzi\blog\themes\fluid\source\img" />
-      <recent name="E:\yanzi\blog\themes" />
+      <recent name="E:\yanzi\blog\source\img\node\node学习笔记\node学习笔记（二）" />
+      <recent name="E:\yanzi\blog\source\img\vue\Vue-Cli" />
+      <recent name="E:\yanzi\blog\source\img\hexo" />
+      <recent name="E:\yanzi\blog\source\img" />
+      <recent name="E:\yanzi\blog\source\img\vue\Vue撸教程2.x\Vue撸教程2.x（四）" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\yanzi\blog\source\img\vue\Vue-Cli" />
+      <recent name="E:\yanzi\blog\themes\sakura\source\img" />
+      <recent name="E:\yanzi\blog\source\events" />
+      <recent name="E:\yanzi\blog\source\img\vue\Vue撸教程2.x\Vue撸教程2.x（三）" />
+      <recent name="E:\yanzi\blog\source\images\donate" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -218,7 +243,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.server">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="server" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -232,6 +267,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.server" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -246,7 +282,52 @@
       <option name="presentableId" value="Default" />
       <updated>1571710908747</updated>
       <workItem from="1571710909923" duration="17575000" />
-      <workItem from="1571734849486" duration="4019000" />
+      <workItem from="1571734849486" duration="9495000" />
+      <workItem from="1571792169820" duration="17572000" />
+      <workItem from="1571828901598" duration="631000" />
+      <workItem from="1571878816370" duration="2180000" />
+      <workItem from="1571964588385" duration="4704000" />
+      <workItem from="1571969313139" duration="25843000" />
+      <workItem from="1572159291992" duration="4533000" />
+      <workItem from="1572225691801" duration="3708000" />
+      <workItem from="1572247146599" duration="7557000" />
+      <workItem from="1572311834166" duration="662000" />
+      <workItem from="1572325193927" duration="7845000" />
+      <workItem from="1572351030984" duration="2713000" />
+      <workItem from="1572398768972" duration="12044000" />
+      <workItem from="1572419744981" duration="9909000" />
+      <workItem from="1572441735078" duration="10081000" />
+      <workItem from="1572484398856" duration="327000" />
+      <workItem from="1572484733979" duration="15945000" />
+      <workItem from="1572571340750" duration="35973000" />
+      <workItem from="1572915996621" duration="10266000" />
+      <workItem from="1572932338246" duration="429000" />
+      <workItem from="1572932781054" duration="465000" />
+      <workItem from="1572933280311" duration="2236000" />
+      <workItem from="1572936613223" duration="13980000" />
+      <workItem from="1573002657960" duration="9975000" />
+      <workItem from="1573016820913" duration="19552000" />
+      <workItem from="1573088383522" duration="11079000" />
+      <workItem from="1573175208515" duration="2891000" />
+      <workItem from="1573277145304" duration="642000" />
+      <workItem from="1573434558201" duration="1734000" />
+      <workItem from="1573436657245" duration="1498000" />
+      <workItem from="1573520914829" duration="17787000" />
+      <workItem from="1573785738004" duration="9737000" />
+      <workItem from="1574039943584" duration="9528000" />
+      <workItem from="1574060067500" duration="2282000" />
+      <workItem from="1574125986940" duration="920000" />
+      <workItem from="1574164171945" duration="2479000" />
+      <workItem from="1574236602090" duration="657000" />
+      <workItem from="1574298434492" duration="15000" />
+      <workItem from="1574321656352" duration="1815000" />
+      <workItem from="1574384961130" duration="27000" />
+      <workItem from="1574672431842" duration="1209000" />
+      <workItem from="1574730538441" duration="21000" />
+      <workItem from="1574919486930" duration="2161000" />
+      <workItem from="1574989600627" duration="83000" />
+      <workItem from="1577701144378" duration="1520000" />
+      <workItem from="1577770442582" duration="1268000" />
     </task>
     <servers />
   </component>
@@ -273,6 +354,8 @@
       <path value="$PROJECT_DIR$/themes/themes/Butterfly" />
       <path value="$PROJECT_DIR$/themes/Butterfly" />
       <path value="$PROJECT_DIR$/themes/fluid" />
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/themes/sakura" />
     </ignored-roots>
   </component>
 </project>

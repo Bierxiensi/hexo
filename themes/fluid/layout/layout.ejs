@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="<%= config.language %>">
-
 <%
 var subtitle = page.subtitle || page.title
 var banner_img = page.banner_img || theme.index.banner_img
@@ -8,8 +7,13 @@ var banner_img_height = page.banner_img_height || theme.index.banner_img_height
 %>
 
 <%- partial('_partial/head') %>
-
 <body>
+
+<!-- 样式二（飘动的彩带） -->
+<script src="https://g.joyinshare.com/hc/piao.js" type="text/javascript"></script>
+<!--动态线条背景-->
+<script type="text/javascript" color="220,220,220" opacity='0.8' zIndex="-2" count="200" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js">
+</script>
   <header style="height: <%- banner_img_height %>vh;">
     <%- partial('_partial/nav') %>
     <div class="view intro-2" id="background"
@@ -40,11 +44,12 @@ var banner_img_height = page.banner_img_height || theme.index.banner_img_height
       </div>
     </div>
   </header>
-
   <main>
-    <% if(is_post() || page.layout == '404') { %>
+<!--Fork us on GitHub-->
+  <a href="https://github.com/Bierxiensi"><img width="149" height="149" src="https://github.blog/wp-content/uploads/2008/12/forkme_left_white_ffffff.png?resize=149%2C149" class="attachment-full size-full" alt="Fork us on GitHub" data-recalc-dims="1"></a>
+  <% if(is_post() || page.layout == '404') { %>
       <%- body %>
-    <% } else { %>
+  <% } else { %>
       <div class="container nopadding-md">
         <div class="py-5 z-depth-3" id="board">
           <% if(page.layout == 'about') { %>
